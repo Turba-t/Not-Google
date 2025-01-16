@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Not Google{% endblock %}
+
+{% block content %}
+<div class="text-center mt-5">
+    <!-- Google-like Logo -->
+    <h1 style="font-family: Arial, sans-serif; font-size: 72px; font-weight: bold;">
+        <span style="color: #4285F4;">N</span>
+        <span style="color: #EA4335;">o</span>
+        <span style="color: #FBBC05;">t</span>
+        <span style="color: #34A853;">G</span>
+        <span style="color: #4285F4;">o</span>
+        <span style="color: #EA4335;">o</span>
+        <span style="color: #FBBC05;">g</span>
+        <span style="color: #34A853;">l</span>
+        <span style="color: #EA4335;">e</span>
+    </h1>
+
+    <!-- Tagline -->
+    <p style="font-style: italic; color: gray;">"Because originality is overrated."</p>
+
+    <!-- Search Form -->
+    <form action="/search" method="get" class="d-flex justify-content-center mt-4">
+        <input type="text" name="q" class="form-control w-50" placeholder="Search for something..." required>
+        <button type="submit" class="btn btn-primary ms-2">Definitely Search</button>
+    </form>
+</div>
+{% endblock %}
+
+
