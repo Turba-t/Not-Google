@@ -5,7 +5,7 @@ A search engine project featuring basic search engine functionality.
 ## Features
 - **Spelling Correction**: Suggest corrections for misspelled queries.
 - **Pagination**: Browse results in smaller chunks.
-- **Custom Styling**: Styled to resemble Google with humorous touches.
+- **Custom Styling**: Styled to resemble an obvious search engine we will not mention because of international copyright laws.
 
 ## How to Run
 1. Clone the repository: 
