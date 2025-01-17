@@ -15,7 +15,7 @@ git clone https://github.com/your-username/your-repo-name.git
 pip install -r requirements.txt
 
 3. Run the crawler to build the index:
-python crawler.py
+flask run
 
 4. Start the Flask app:
 python app.py
